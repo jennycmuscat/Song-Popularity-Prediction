@@ -1,6 +1,6 @@
 # Song Rank Prediction Based on Debut Week Rankings
 
-LSTM recurrent neural network to predict song popularity ranking. Developed with Beate Desmitniece and Ian Yang at the University of Edinburgh.
+LSTM recurrent neural network to predict song popularity ranking. Developed alongside Beate Desmitniece and Ian Yang at the University of Edinburgh.
 
 The README file is structured as follows:
 1. [Installation](#installation)
