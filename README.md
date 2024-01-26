@@ -1,6 +1,6 @@
 # Song Rank Prediction Based on Debut Week Rankings
 
-LSTM recurrent neural network to predict song popularity ranking. Developed alongside Beate Desmitniece and Ian Yang at the University of Edinburgh.
+LSTM recurrent neural network to predict song popularity ranking. Developed alongside Beate Desmitniece and Ian Yang at the University of Edinburgh. We were supplied with a dataset containing the “Top 200” playlists published globally by Spotify from 01/01/2017 to 31/05/2023.
 
 The README file is structured as follows:
 1. [Installation](#installation)
