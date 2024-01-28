@@ -1,6 +1,8 @@
 # Song Rank Prediction Based on Debut Week Rankings
 
-LSTM recurrent neural network to predict song popularity ranking. Developed alongside Beate Desmitniece and Ian Yang at the University of Edinburgh. We were supplied with a dataset containing the “Top 200” playlists published globally by Spotify from 01/01/2017 to 31/05/2023.
+Long short-term memory (LSTM) recurrent neural network to predict song popularity ranking. Developed alongside Beate Desmitniece and Ian Yang at the University of Edinburgh.
+
+We were supplied with a dataset containing the “Top 200” playlists published globally by Spotify from 01/01/2017 to 31/05/2023. This included song name, artist, artist nationality, song rank, song points, and audio features per day. Please note that the procedure described below involves the steps to be carried out on the Spotify dataset that is not included here due to its large file size. However, the restructured song dataset is available in song_dataset.csv
 
 The README file is structured as follows:
 1. [Installation](#installation)
@@ -8,10 +10,7 @@ The README file is structured as follows:
 3. [Exploratory Data Analysis](#exploratory-data-analysis)
 4. [Hyperparameter Search](#hyperparameter-search)
 5. [Model Evaluation](#model-evaluation)
-> ❗ Step 2 [Data Preparation](#data-preparation) can be skipped as all the files to perform the following steps have already been
-included in the directory. <br> Additionally, we suggest skipping this step since models may have different outcome results than those in the report. 
-> This is due to variation in the training and testing datasets as a result of manual adjustments, as well as variation in metrics 
-> collected from the Spotify API.
+> ❗ Models may have different outcome results than those in the report due to variation in the training and testing datasets as a result of manual adjustments, as well as variation in metrics collected from the Spotify API.
 > 
 ## Installation
 
